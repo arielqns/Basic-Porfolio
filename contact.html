@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
@@ -8,29 +8,35 @@
     <title>About Me</title>
     <link rel="stylesheet" type="text/css" href="assets\css\reset.css">
     <link rel="stylesheet" type="text/css" href="assets\css\style.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-
-<body>
-    <header id="masterhead">
-        <div class="container">
-                <a href="index.html" id="logo" target="index.html">Ariel Quinones</a>
-                <a href="index.html">About Me</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
+    <div id="container-top">
+        <!—topRow -->
+        <section>
+            <div class="main-nav">
+                <h1 id="name"><a href="index.html" target="index.html">Ariel Quinones</a></h1>
+                <!—top Nav -->
+            <nav>
+                <ul>
+                    <li class="top-nav"><a href="index.html">About</a></li>
+                    <li class="top-nav"><a href="portfolio.html">Portfolio</a></li>
+                    <li class="top-nav"><a href="contact.html">Contact</a></li>
+                </ul>
             </nav>
-        </div>
-     
-    </header>
-<div id="main-container" class="container">
-       <section class="main-container">
+            </div>
+        </section>
+    </div> 
+
+    <!—Main Body -->
+    <section id ="main-container">
+        <div class="container-middle">
          <h1>Contact</h1>
 
             <form id="contact-form">
                 <ul>
                  <li>
                      <label form="name">Name</label>
-                     <input type="text" name="email" id="name" placeholder="John Doe" required="required">
+                     <input type="text" name="name" id="name1" placeholder="John Doe" required="required">
                  </li>
                  <li>
                     <label form="email">Email</label>
@@ -46,22 +52,25 @@
 
             </form>
         
-        </section>
+        </div>
 
-        <section class="sidebar">
-            <div id="connect">
+        <!—sidebar section -->
+            <div class ="sidebar" id="connect">
                <h2>Connect with Me</h2> 
                <img src="assets\images\Github-128.png" class="social" alt="Github">
                <img src="assets\images\Linkedin-128.png" class="social" alt="Linkedin">
                <img src="assets\images\Stack-128.png" class="social" alt="Stackoverflow">
             </div>
         </section>
-    </div>
-
-    <footer id="footer">
-        <div class="container">
-            &copy; Copyright 2019 Ariel Quinones
-        </div>
-
-</body>
-</html>
+          
+        <!-- footer -->
+        <section>
+            <footer id="footer">
+                <div class="container">
+                    &copy; Copyright 2019 Ariel Quinones
+                </div>
+            </footer> \
+        </section>
+        </body>
+        
+        </html>
