@@ -71,7 +71,7 @@ text-decoration: none;
     margin-top: 25px;
 }
 
-nav a {
+nav, a {
     color: #999999;
     text-decoration: none;
     margin-left: 15px;
